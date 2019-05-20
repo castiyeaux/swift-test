@@ -2,7 +2,7 @@
 //  First_AppUITests.swift
 //  First AppUITests
 //
-//  Created by Andrea Castillo on .
+//  Created by Andrea Castillo on 20 MAY 2019.
 //  Copyright © 2019 Andrea Castillo. All rights reserved.
 //
 
