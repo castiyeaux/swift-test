@@ -12,7 +12,6 @@ import MediaPlayer
 class GenreButtonScreen: UIViewController {
     
     var musicPlayer = MPMusicPlayerController.applicationMusicPlayer //".applicationMusicPlayer" keeps the music playing only while in this app (once exited, music stops)
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,6 +50,18 @@ class GenreButtonScreen: UIViewController {
         musicPlayer.skipToNextItem()
         
     }//end nextButtonTapped func
+    
+    @IBAction func playButtonTapped(_ sender: UIButton) {
+        
+        musicPlayer.play()
+        
+    }//end playButtonTapped func
+    
+    @IBAction func pauseButtonTapped(_ sender: UIButton) {
+        
+        musicPlayer.pause()
+        
+    }//end pauseButtonTapped func
     
     func playGenre(genre: String) {
         
